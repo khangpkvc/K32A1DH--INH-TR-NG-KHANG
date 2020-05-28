@@ -1,0 +1,69 @@
+/* DDAAAAY LÀ PHẦN NAVBAR */
+#navbar{
+    height: 70px;
+    background-color:#000000;
+}
+#navbar .navbar-nav li a{
+  float: left;
+  font-size: 15px;
+	list-style: none;
+	margin-left: 2px;
+	margin-top: 0px;
+  line-height: 75px;
+  text-decoration: none;
+  color: #fff;
+  padding: 25px;
+}
+#navbar li{
+    height: 86px;
+    margin-top: -30px;
+    transition: .5s ease;
+}
+#navbar li:hover{
+    background-color: #fcdd44;
+}
+#navbar li:hover a{
+    color: #592e25;
+}
+#slider button{
+    background: rgb(252, 221, 68, 0.5);
+    border: 5px; 
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 2px;
+    font-size: 12px;
+}
+#slider .carousel-caption span{
+  color:  #fcdd44;
+}
+#slider .carousel-indicators{
+  margin-bottom: 50px;
+}
+#slider .carousel-caption{
+  margin-bottom: 250px;
+}
+#product .jumbotron{
+  border-radius: 0px;
+  background-color: rgb(201, 48, 48);
+  padding: 50px;
+  width: 347px;
+  color: #fff;
+}
+#product .caption1 .jumbotron{
+  background-color: rgb(12, 214, 164);
+
+}
+#product{
+  margin-top: -50px;
+}
+#product2{
+  margin-top: 60px;
+}
+#product2 .row{
+  margin-top: 50px;
+}
+#footer{
+  background-color: black;
+  height: 50px;
+}
